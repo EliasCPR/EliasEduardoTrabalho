@@ -1,0 +1,233 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /*Trava o elemento para que não sofra mudanças de tamanho*/
+    box-sizing: border-box;
+}
+
+
+/*Classe para padronização do tamanho do conteudo de cada seção*/
+.conteudo{
+    width: 1300px;
+    /*Permite herdar o valor do elemento pai*/
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2{
+    width: 100%;
+    height: 50px;
+    background-color: #000000;  
+    font-family: verdana;
+    font-size: 1.3em;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    padding-top: 10px;
+}
+
+h2{
+    height: 40px;
+    font-size: 1.1em;
+    color: brown;
+}
+
+p{
+    width: inherit;
+    /*Altura minima do elemento p*/
+    min-height: 20px;
+    /*Permite que o elemento p aumente de forma automatica*/
+    height: auto;
+    /*Ajusta o estouro da caixa para não haver barra de rolagem*/
+    overflow: hidden;
+    
+    font-family: verdana;
+    font-size: 0.75em;
+    line-height: 1.5;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Menu */
+#containerMenu{
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+    position: fixed;
+    z-index: 3;
+}
+
+#logo{
+    width: 100px;
+    height: inherit;
+    background-color: beige;
+    float: left;
+}
+
+#menu{
+    width: 1000px;
+    height: inherit;
+    background-color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#redesSociais{
+    width: 180px;
+    height: inherit;
+    float: left;
+}
+
+#listMenu{
+    width: inherit;
+    height: inherit;
+}
+
+.menuItem{
+    width: 180px;
+    height: inherit;
+    color: rgb(255, 30, 225);
+    font-family: verdana;
+    font-size: 1.2em;
+    text-align: center;
+    float: left;
+    list-style: none;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.menuItem:hover{
+    background-color: #f0f0f0;
+    color: #f8f8f8;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.sociaisItem{
+    width: 50px;
+    height: 50px;
+    float: left;
+    background-color: darkgray;
+    margin-right: 10px;
+}
+.espacos{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+}
+
+/*Seção do Slogan*/
+#containerSlogan{
+    width: 100%;
+    height: 650px;
+    background-color: deeppink;
+    padding-top: 40px;
+}
+
+#slogan{
+    width: 100%;
+    height: 100%;
+    background-image: url(../imagem/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:scroll;
+}
+
+/*Seção do Item2*/
+#containerItem2{
+    width: 100%;
+    height: 500px;
+    background-color: orange;
+}
+
+#entreCaixa{
+    height: inherit;
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: orange;
+    padding-top: 50px;
+}
+
+.caixa{
+    width: 27%;
+    height: 80%;
+    background-color: coral;
+    border: solid;
+    display: inline-block;
+    padding-bottom: 20%;
+    margin-right: 60px;
+    margin-left: auto;
+}
+#containerItem3{
+    width: 100%;
+    height: 550px;
+    background-color: white;
+}
+
+#containerItem4{
+    width: 100%;
+    height: 550px;
+    background-color: orange;
+}
+
+#containerRodape{
+    width: 100%;
+    height: 250px;
+    background-color:rgb(207, 207, 203);
+}
+.rodape{
+    width:33%;
+    height: inherit;
+    background-color: rgb(207, 207, 203);
+    float: left;
+}
+#entreRodape{
+    height: inherit;
+    width:90%;
+    background-color: rgb(207, 207, 203);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
